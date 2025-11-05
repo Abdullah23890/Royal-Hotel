@@ -1,0 +1,65 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.carousel-item img{
+    height: 500px;
+}
+.map-card img{
+    width: 100%;
+    height: 400px;
+}
+.btn{
+    
+    background-color: yellow;
+}
+.insta-feed img{
+    height: 50px;
+    width: 50px;
+}
+.footer-container{
+    
+    background-color: rgba(0, 0, 0, 0.312);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+.footer-nav a{
+    gap: 100px
+}
+.contact-item {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.container-form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.form-control {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}  
+   nav {
+    height: 5rem !important;
+}
+
+ul {
+    list-style: none;
+    margin-right: 3rem;
+    gap: 1rem !important;
+}
+ul li a {
+    text-decoration: none;
+    color: black !important;
+}
+ul li a:hover {
+color: #52c5fd !important;
+}
