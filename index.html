@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Royal Hotel SMIT</title>
-		<link rel="stylesheet" href="home.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-	</head>
-	<body>
-		<!-- nav bar using bootstrap  -->
-		<nav
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery making </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style>
+    .carousel-inner img {
+        height: 450px;
+    }
+</style>
+<link rel="stylesheet" href="gellery.css">
+
+</head>
+<body>
+  <!-- nav start -->
+  <nav
 			class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
 		>
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
-					<img src="assets/Logo.webp" alt="Logo" width="160" height="auto" class="d-inline-block align-text-top" />
+					<img src="Logo.webp" alt="Logo" width="160" height="auto" class="d-inline-block align-text-top" />
 				</a>
 				<button
 					class="navbar-toggler"
@@ -42,230 +36,85 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link active" aria-current="page" href="index.html"></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
+							<a class="nav-link" href="about.html">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Blog</a>
+							<a class="nav-link" href="blog.html">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+            <li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-
-		<!-- --------- -->
-		<!-- top image header with booking box -->
-<div class="container1">   
-  <div class="banner_content">
-    <h6>Away from monotonous life</h6>
-    <h2>Relax Your Mind</h2>
-    <p>
-      If you are looking at blank cassettes on the web, you may be very
-      confused at the<br />
-      difference in price. You may see some for as low as $.17 each.
-    </p>
-    <button type="button" class="btn btn-warning px-4 py-2 text-white"> Get Started </button>
+<!-- nav end -->
+   <div class="container-fulid">
+    <div class="row">
+        <div class="col">
+             <!-- gallery carousel start -->
+ <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="div class="d-none d-sm-block>
+        
+    </div></button>
   </div>
-
-  <section class="booking-section">
-    <div class="booking-box">
-      <div class="booking-left">
-        <h2>BOOK <br> YOUR ROOM</h2>
-      </div>
-
-      <div class="booking-right">
-        <form class="booking-form">
-          <div class="form-group">
-            <label for="arrival">Arrival Date</label>
-            <input type="date" id="arrival" name="arrival">
-          </div>
-
-          <div class="form-group">
-            <label for="depart">Departure Date</label>
-            <input type="date" id="depart" name="depart">
-          </div>
-
-          <div class="form-group">
-            <label for="adult">Adult</label>
-            <select id="adult">
-              <option selected>Adult</option>
-              <option>1 Adult</option>
-              <option>2 Adults</option>
-              <option>3 Adults</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="child">Child</label>
-            <select id="child">
-              <option selected>Child</option>
-              <option>1 Child</option>
-              <option>2 Children</option>
-            </select>
-          </div>
-
-            <button type="submit" class="booking-btn">BOOK NOW</button>
-        </form>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="Hyatt-Regency-Dallas-P088-Lobby-Horizontal.16x9.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 style="color: azure;"> Gallery  </h3>
+        <p style="color: azure;"> <b> Our Service  Make You Happy  </b> </p>
       </div>
     </div>
-  </section>
+</div>
+<!-- coresel end -->
+
+<!-- gallery text  -->
+<div style="margin-left: 41.4%; padding-top: 4%; color: rgb(10, 4, 4);">
+<h1> <b>Royal Hotel Gallery </b></h1>
+<h6> Who are in extremely love with eco friendly system.</h6>
+</div>
+<!-- gallery text end -->
+
+<!-- images start -->
+
+<div  style="margin-left: 29.3%;">
+	<h3>  <b><u>Our Kitchen:</u></b></h3></div>
+<div style="margin-left: 29.3%; margin-top: 1%;">
+    <img src=" image2.avif " alt="" style="width: 20%;"  >
+    <img src="kitchen image1.avif" alt="" style="width: 20%;">
+     <img src="kitchen.5.avif" alt="" style="width: 20%;" >
+</div>
+<div  style="margin-left: 29.3%;">
+<h3>  <b><u>Our Bed Rooms:</u></b></h3></div>
+<div style="margin-left: 29.3%; margin-top: 1%;">
+    <img src="bed2.webp" alt="" style="width: 19.8%;"  >
+    
+    <img src="bed1.webp" alt="" style="width: 20.8%;">
+     <img src="bed3.webp" alt="" style="width: 19.5%;">
 </div>
 
-
-
-<section class="accommodation">
-  <h2 class="section-title">Hotel Accommodation</h2>
-  <p class="section-subtitle">
-    We all live in an age that belongs to the young at heart. Life that is becoming extremely fast.
-  </p>
-
-  <div class="rooms-container">
-    <div class="room-card">
-      <div class="room-image">
-        <img src="assets/room1.webp" alt="room 1">
-        <button class="book-btn">BOOK NOW</button>
-      </div>
-      <h3>Double Deluxe Room</h3>
-      <p class="price">$250<span>/night</span></p>
-    </div>
-
-    <div class="room-card">
-      <div class="room-image">
-        <img src="assets/room2.webp" alt="room 2">
-        <button class="book-btn">BOOK NOW</button>
-      </div>
-      <h3>Single Deluxe Room</h3>
-      <p class="price">$200<span>/night</span></p>
-    </div>
-
-    <div class="room-card">
-      <div class="room-image">
-        <img src="assets/room3.webp" alt="room 3">
-        <button class="book-btn">BOOK NOW</button>
-      </div>
-      <h3>Honeymoon Suit</h3>
-      <p class="price">$750<span>/night</span></p>
-    </div>
-
-    <div class="room-card">
-      <div class="room-image">
-        <img src="assets/room4.webp" alt="room 4">
-        <button class="book-btn">BOOK NOW</button>
-      </div>
-      <h3>Economy Double</h3>
-      <p class="price">$200<span>/night</span></p>
-    </div>
-  </div>
-</section>
-
-  <section class="facilities-section">
-    <div class="container3">
-      <h2 class="section-title">Royal Facilities</h2>
-      <p class="section-subtitle">Who are in extremely love with eco friendly system.</p>
-      <div class="facilities-boxes">
-        <div class="facility-box">
-          <h3><i class="fa-solid fa-utensils"></i> Restaurantt</h3>
-          <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-        <div class="facility-box">
-          <h3><i class="fa-solid fa-bicycle"></i>  Sports Club</h3>
-          <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-        <div class="facility-box">
-          <h3><i class="fa-solid fa-person-swimming"></i> Swimming Pool</h3>
-          <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-        <div class="facility-box">
-          <h3><i class="fa-solid fa-car"></i> Rent a Car</h3>
-          <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-        <div class="facility-box">
-          <h3><i class="fa-solid fa-dumbbell"></i>  Gymnasium</h3>
-          <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-        <div class="facility-box">
-          <h3><i class="fa-solid fa-wine-glass"></i>  Bar</h3>
-          <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-		
-      </div>
-	</div>
-  </section>
-
-  <section class="about-section">
-    <div class="text-box">
-		<h2 class="about-title">About Us <br>  Our History <br> Mission & Vision</h2>
-		<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-	    <button class="about-btn">REQUEST CUSTOM PRICE</button>
-	</div>
-	<div class="aboutimage">
-		<img src="assets/about_bg.webp" alt="about-image">
-	</div>
-  </section>
-
-
-  <section class="reviews">
-	<div class="review-title">
-		<h1>Testimonial from our Clients</h1>
-		<p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from</p>
-	</div>
-	<div class="review-box">
-		<div class="review-card">
-		 <img src="assets/review-img.webp" alt="riview image">
-		 <div class="card-text">
-			<p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-		     <h4>Ayesha Umer</h4>
-			 <p>⭐⭐⭐⭐⭐</p>
-		</div>
-	</div>
-
-	<div class="review-card">
-		 <img src="assets/review-img.webp" alt="riview image">
-		 <div class="card-text">
-			<p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-		     <h4>Ayesha Umer</h4>
-			 <p>⭐⭐⭐⭐⭐</p>
-		</div>
+<div style="margin-left: 29.3%;" > 
+	<h3>  <b><u>Our Sitting Area:</u></b></h3></div>
+<div style="margin-left: 29.3%; margin-top: 1%;">
+    <img src="sitting1.webp" alt="" style="width: 19%;"   >
+    <img src="sitting2.webp" alt=""style="width: 22.5%;"  >
+     <img src=" siitng3.webp" alt=""style="width: 19%;"   >
 </div>
-		</div>
-  </section>
 
-  <section class="blogging">
-	<div class="blog-title">
-		<h2>latest posts from blog</h2>
-		<p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from</p>
-	</div>
-	<div class="blog-container">
-		<div class="blog-card">
-			<img src="assets/blog-1.webp" alt="blog">
-			<p class="span-box"><span>Travel</span> <span>Life Style</span></p>
-			<h5>Low Cost Advertising</h5>
-			<p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.</p>
-			<p class="date">31st January,2018</p>
-		</div>
-		<div class="blog-card">
-			<img src="assets/blog-2.webp" alt="blog">
-			<p class="span-box"><span>Travel</span> <span>Life Style</span></p>
-			<h5>Creative Outdoor Ads</h5>
-			<p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.</p>
-			<p class="date">31st January,2018</p>
-		</div>
-		<div class="blog-card">
-			<img src="assets/blog-3.webp" alt="blog">
-			<p class="span-box"><span>Travel</span> <span>Life Style</span></p>
-			<h5>It is Classified How To Utilize</h5>
-			<p>Why do you want to motivate yourself? Actually, just answering that question fully can</p>
-			<p class="date">31st January,2018</p>
-		</div>
-	</div>
-  </section>
+	
+ 
+<!-- images end -->
 
-  <footer>
+<!-- FOOTER START -->
+ <footer>
 	<div class="top-footer">
 	<div class="left-foot">
 		<div class="about-agency">
@@ -279,6 +128,7 @@
 				<li><a href="about.html">About</a></li>
 				<li><a href="contact.html">contact</a></li>
 				<li><a href="blog.html">BLOG</a></li>	
+        <li><a href="gallery.html">GALLERY</a></li>
 			</ul>
 		</div>
 	</div>
@@ -292,22 +142,18 @@
 		<div class="instafeed">
 			<h4>INSTAFEED</h4>
 			<div class="image-insta">
-				<img src="assets/blog-2.webp" alt="">
-				<img src="assets/room3.webp" alt="">
-				<img src="assets/blog-3.webp" alt="">
+				<img src="room2.webp" alt="">
+				<img src="room4.webp" alt="">
+				<img src="room3.webp" alt="">
 			</div>
 		</div>
 	</div>
 	</div>
 	<div class="bottom-foot">
-		<p>Copyright ©2025 All rights reserved | This Website is developed by M Amir and group at SMIT Sukkur</p>
+		<p>Copyright ©2025 All rights reserved | This Website is developed by Ab Salam and group at SMIT Sukkur</p>
 		<p><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-solid fa-globe"></i></p>
 	</div>
   </footer>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-			crossorigin="anonymous"
-		></script>
-	</body>
+   <!-- FOOTER END -->
+</body>
 </html>
