@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aqua;
 } 
 
 .carousel-item img{
@@ -20,8 +21,8 @@
     width: 50px;
 }
 .footer-container{
-    
-    background-color: rgba(0, 0, 0, 0.312);
+    color: white;
+    background-color: blue;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -62,4 +63,9 @@ ul li a {
 }
 ul li a:hover {
 color: #52c5fd !important;
+}
+.button{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
