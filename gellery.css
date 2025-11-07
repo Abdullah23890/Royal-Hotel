@@ -1,0 +1,117 @@
+footer {
+    margin-top: 5rem;
+    background: #04091e;
+    padding: 142px 0px;
+}
+.top-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  .top-footer{
+    flex-direction: column;
+    gap: 4rem;
+ }
+.left-foot {
+    gap: 4rem !important;
+    width: 100% !important;
+    margin: 1rem !important;
+}
+.right-foot {
+     margin-left: 5rem !important;
+    width: 100% !important;
+
+}
+}
+
+
+.top-footer p {
+      color: #777777;
+}
+footer h4 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.left-foot {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-foot {
+    display: flex;
+    width: 50%;
+}
+
+
+.footer-msg input{
+width: 13rem;
+color: white;
+padding: 0.3rem 3rem;
+background: transparent;
+border: 1px solid #777777;
+}
+
+.about-agency {
+    width: 50%;
+}
+
+.footer-msg {
+    width: 50%;
+}
+
+.footer-msg button {
+    border: none;
+    border-radius: 5px;
+    background-color: #f1c40f;
+    padding: 4px 6px;
+}
+
+.foot-nav ul li {
+    margin-top: 10px;
+}
+.foot-nav ul li a {
+    color: #777777 !important;
+}
+
+.right-foot {
+    display: flex;
+    gap: 2rem;
+}
+.image-insta {
+width: 100%;
+}
+
+.image-insta img {
+    width: 70px;
+    height: 70px;
+}
+
+.bottom-foot {
+    border-top: 1px solid #777777;
+    color: #777777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.bottom-foot p {
+    font-size: 1rem;
+}
+.bottom-foot p i {
+    color: #777777;
+    margin-left: 1rem;
+    cursor: pointer;
+}
